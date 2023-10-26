@@ -1,5 +1,14 @@
 @import url(root.css);
 
+:root {
+    --blak: #000000;
+    --blak_seri: #00000033;
+    --balota_grin: #1C5550;
+    --vait_balota_grin: #91B599;
+    --ielow_seri: #C3B97F;
+    --pink_seri: #DFD9D9;
+    --wite: #DFD9D966;
+}
 
 /* container */
 .container {
@@ -77,6 +86,43 @@
     color: #C3B97F;
 }
 
+/* nav */
+
+.sub {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 66px;
+    background: #91b599;
+  }
+  
+  .sub_p {
+    color: #dfd9d9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  
+  .sub_p::before {
+    content: "";
+    border-left: 2px solid #d9d9d9;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    padding-left: 43px;
+  }
+  
+  .sub_p::after {
+    content: "";
+    background-image: url("../img/basil_arrow-right-outline.png");
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 8px;
+  }
 /* section1 */
 
 .section {
