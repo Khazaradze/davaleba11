@@ -1,0 +1,78 @@
+@import url(root.css);
+
+
+/* container */
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+    background-color: var(--bgcolor);
+}
+
+
+/* header */
+.header_container {
+    padding: 32px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul {
+    display: flex;
+
+    column-gap: 84px;
+
+}
+
+.header_li {
+    color: #DFD9D9;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header_div {
+    display: flex;
+    column-gap: 36px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    padding: 8px 20px;
+    column-gap: 100px;
+    box-shadow: 1.5199999809265137px 3px 3px -0.800000011920929px #00000033 inset;
+    box-shadow: 0px -0.30000001192092896px 1px 0px #dad5d566 inset;
+    background: #07070733;
+    border-radius: 4px;
+}
+
+.search_text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #93b89b;
+}
+
+.fa-magnifying-glass {
+    color: #8cb194;
+}
+
+.fa-user {
+    padding: 4px;
+    background: #00000033;
+    box-shadow: 0px 2px 4px -2px #DFD9D966 inset;
+    box-shadow: 0px 2px 4px 0px #00000033;
+    border-radius: 4px;
+    color: #91B599;
+}
+
+.fa-cart-shopping {
+    padding: 4px;
+    background: #00000033;
+    box-shadow: 0px 2px 4px -2px #DFD9D966 inset;
+    box-shadow: 0px 2px 4px 0px #00000033;
+    border-radius: 4px;
+    color: #C3B97F;
+}
