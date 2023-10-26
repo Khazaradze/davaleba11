@@ -76,3 +76,123 @@
     border-radius: 4px;
     color: #C3B97F;
 }
+
+/* section1 */
+
+.section {
+    padding: 64px 20px;
+    display: grid;
+    gap: 20px 40px;
+    grid-template-rows: repeat(3, 160px);
+    grid-template-columns: 320px 680px 320px;
+    grid-template-areas:
+        "item1 item2 item3"
+        "item1 item2 item4"
+        "item1 item2 item5";
+}
+
+.item {
+    padding: 38px 40px;
+    grid-area: item1;
+    box-shadow: 0px 4px 4px 0px #00000033 inset;
+    box-shadow: 0px -1px 4px 0px #DFD9D966 inset;
+    background: #00000033;
+
+}
+
+.item_title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #C3B97F;
+    margin-bottom: 16px;
+}
+
+.item_ul {
+    margin-bottom: 41px;
+}
+
+.item_list {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #91B599;
+}
+
+.item_list_active {
+    font-size: 14px;
+    line-height: 25px;
+    color: #91B599;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.item_div {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C3B97F;
+}
+
+.fa-angle-down {
+    color: #C3B97F;
+
+}
+
+.item_list2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #C3B97F;
+
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item2_price_div {
+    margin-top: 20px;
+    background-color: #DFD9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1C5550;
+}
+
+.cart {
+    padding: 9px 50px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #DFD9D9;
+    background: #C3B97F;
+
+}
+
+.item2_img2 {
+    background-color: aquamarine;
+    grid-area: item3;
+}
+
+.item2_img3 {
+    background-color: beige;
+    grid-area: item4;
+}
+
+.item2_img4 {
+    background-color: #91B599;
+    grid-area: item5;
+}
+
+/* section2 */
